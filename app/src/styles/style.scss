@@ -1,0 +1,170 @@
+@import './fonts';
+@import './variables';
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: #1c1c1c;
+}
+
+.App{
+    @include marginCenter();
+    max-width: 550px;
+    height: 868px;
+    background: #23252C;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.mainSection{
+    padding-top: 44px;
+    padding-left: 116px;
+    padding-right: 117px;
+}
+
+.mainTextSection{
+    margin-top: -5px;
+    max-width: 317px;
+    background-color: #1A1B21;
+}
+
+.mainTextSection{
+        h2, h4, p{
+        text-align: center;
+    }
+}
+
+.mainTextSection{ 
+     h2{
+        font-size: 25px;
+        color: $textColor;
+        padding-top: 26px;
+    }
+
+    h4{
+        font-size: 12.8px;
+        font-weight: 400;
+        color: #F3BF99;
+        padding-top: 6.19px; 
+    }
+
+    p{
+        font-size: 10.24px;
+        font-weight: 400;
+        color: #F5F5F5;
+        padding-top: 8.81px;
+    }
+}
+
+.mainBtns{
+    display: flex;
+    justify-content: center;
+}
+
+.mainBtns{ 
+    margin-top: 15px;
+    padding-bottom: 15px;
+
+    button{
+        border: none;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 115px;
+        padding: 8px 0px;
+        margin: 0px 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gmailBtn{
+        background-color: $textColor;
+        
+        .gmailIconBtn{
+            color: #1E1F26;
+            font-size: 12px;
+            padding-right: 8px;
+        }
+
+        &:hover{
+            background-color: #CB7228;
+            color: $textColor;
+            transition: 500ms;
+            cursor: pointer;
+
+            .gmailIconBtn{
+                color: $textColor;
+                transition: 500ms;
+            }
+        }
+    }
+
+    .linkedinBtn{
+        background: #5093E2;
+        color: $textColor;
+        
+        .linkedinIconBtn{
+            color: $textColor;
+            font-size: 14px;
+            padding-right: 8px;
+        }
+
+        &:hover{
+            background-color: #CB7228;
+            transition: 500ms;
+            cursor: pointer;
+        }
+    }
+}
+
+.aboutSection{
+    @include marginCenter();
+    max-width: 317px;
+    background-color: #1A1B21;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+    div{
+        padding: 0px 35px;
+        color: $textColor;
+        margin-bottom: 27px;
+
+        h3{
+            font-weight: 700;
+        }
+
+        p{
+            font-weight: 400;
+            font-size: 10.24px;
+            padding-top: 5px;
+        }
+    }
+}
+
+.footerSection{
+    @include marginCenter();
+    max-width: 317px;
+    max-height: 64px;
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    img{
+        padding: 20px 12px;
+
+        &:hover{
+            transition: 800ms;
+            transform: scale(1.4);
+            cursor: pointer;
+        }
+    }
+}

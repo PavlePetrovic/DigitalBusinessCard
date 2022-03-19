@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background: #1c1c1c;
+}
+
+.App {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+  height: 868px;
+  background: #23252C;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.mainSection {
+  padding-top: 44px;
+  padding-left: 116px;
+  padding-right: 117px;
+}
+
+.mainTextSection {
+  margin-top: -5px;
+  max-width: 317px;
+  background-color: #1A1B21;
+}
+
+.mainTextSection h2, .mainTextSection h4, .mainTextSection p {
+  text-align: center;
+}
+
+.mainTextSection h2 {
+  font-size: 25px;
+  color: #ffffff;
+  padding-top: 26px;
+}
+
+.mainTextSection h4 {
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #F3BF99;
+  padding-top: 6.19px;
+}
+
+.mainTextSection p {
+  font-size: 10.24px;
+  font-weight: 400;
+  color: #F5F5F5;
+  padding-top: 8.81px;
+}
+
+.mainBtns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainBtns {
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mainBtns button {
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  width: 115px;
+  padding: 8px 0px;
+  margin: 0px 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainBtns .gmailBtn {
+  background-color: #ffffff;
+}
+
+.mainBtns .gmailBtn .gmailIconBtn {
+  color: #1E1F26;
+  font-size: 12px;
+  padding-right: 8px;
+}
+
+.mainBtns .gmailBtn:hover {
+  background-color: #CB7228;
+  color: #ffffff;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.mainBtns .gmailBtn:hover .gmailIconBtn {
+  color: #ffffff;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+}
+
+.mainBtns .linkedinBtn {
+  background: #5093E2;
+  color: #ffffff;
+}
+
+.mainBtns .linkedinBtn .linkedinIconBtn {
+  color: #ffffff;
+  font-size: 14px;
+  padding-right: 8px;
+}
+
+.mainBtns .linkedinBtn:hover {
+  background-color: #CB7228;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.aboutSection {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 317px;
+  background-color: #1A1B21;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.aboutSection div {
+  padding: 0px 35px;
+  color: #ffffff;
+  margin-bottom: 27px;
+}
+
+.aboutSection div h3 {
+  font-weight: 700;
+}
+
+.aboutSection div p {
+  font-weight: 400;
+  font-size: 10.24px;
+  padding-top: 5px;
+}
+
+.footerSection {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 317px;
+  max-height: 64px;
+  background-color: #161619;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.footerSection img {
+  padding: 20px 12px;
+}
+
+.footerSection img:hover {
+  -webkit-transition: 800ms;
+  transition: 800ms;
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
