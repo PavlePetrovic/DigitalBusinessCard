@@ -10,7 +10,7 @@ Simply React app build with Figma template. Just static site hosted on Netlify a
 
 ## Code
 
-Open App/src/ to see my code
+Open app/src/ to see my code
 
 ## Technologies
 
