@@ -8,6 +8,10 @@ Take a look: [DigitalBusinessCard](https://digitalbusinesscardreact.netlify.app/
 
 Simply React app build with Figma template. Just static site hosted on Netlify and one more good practicing project
 
+## Code
+
+Open App/src/ to see my code
+
 ## Technologies
 
 * Html
